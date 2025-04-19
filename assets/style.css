@@ -31,7 +31,7 @@ u {
 }
 
 body {
-  background: #000;
+  background: #a1a1a1;
   /* font-size: 16px; */
 }
 .cv-content {
@@ -82,4 +82,28 @@ hr {
 .job-title + span {
   margin-left: 350px;
   font-weight: 500;
+}
+
+.menu-list {
+  background: #3e5cca;
+}
+
+.menu-list li {
+  display: inline-block;
+}
+
+.menu-item {
+  display: inline-block;
+  height: 72px;
+  min-width: 112px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: center;
+  line-height: 72px;
+  color: #fff;
+}
+
+.menu-list .active .menu-item {
+  color: #000;
+  background-color: #fff;
 }
