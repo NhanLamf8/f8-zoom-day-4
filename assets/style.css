@@ -31,7 +31,7 @@ u {
 }
 
 body {
-  background: #a1a1a1;
+  background: #e5e2e2;
   /* font-size: 16px; */
 }
 .cv-content {
@@ -106,4 +106,56 @@ hr {
 .menu-list .active .menu-item {
   color: #000;
   background-color: #fff;
+}
+
+.form-contain {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  min-height: 800px;
+  margin: 60px auto;
+  background: #9dd3d0;
+  border-radius: 10px;
+}
+
+.form-contain h1 {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 26px;
+}
+
+.form-group {
+  margin: 20px 50px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.input-text {
+  width: 300px;
+}
+.gender :first-child {
+  display: block;
+}
+.gender label {
+  display: inline-block;
+}
+
+img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.communication label {
+  display: inline-block;
+}
+
+.submit {
+  text-align: center;
+}
+.submit input {
+  width: 200px;
+  height: 50px;
 }
